@@ -17,9 +17,9 @@
 
 :small_blue_diamond: [Relacionamentos](#relacionamentos-handshake) :warning:
 
-:small_blue_diamond: [Modelo Lógico - DER](#modelo_logico_der) :x:
+:small_blue_diamond: [Modelo Lógico - DER](modelo_logico_der) :x:
 
-:small_blue_diamond: [Modelo Físico - Scripts Create Database](#scripts_create_database) :warning:
+:small_blue_diamond: [Modelo Físico - Scripts Create Database](scripts_create_database) :warning:
 
 ... 
 
