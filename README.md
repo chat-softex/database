@@ -87,6 +87,16 @@
   - Cada projeto tem uma única avaliação e cada avaliação está associada a um único projeto.
   - Chave Estrangeira: projeto em Avaliacoes refere-se a id em Projetos.
 
+
+
+## Regras de Integridade :pencil:
+
+- UUID: Utilização de UUIDs como identificadores primários.
+- Únicos: Emails de usuários e CNPJs de empresas são únicos.
+- Chaves Estrangeiras: Cada projeto pertence a uma empresa e a um avaliador.
+- Status dos Projetos: Os projetos podem estar em um dos seguintes estados: "Em avaliação", "Aprovado" ou "Reprovado".
+- Feedback: Cada projeto pode ter uma única avaliação gerada pela IA ChatGPT.
+
 ...
 
 ## Licença 
