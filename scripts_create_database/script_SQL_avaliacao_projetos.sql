@@ -25,7 +25,7 @@ CREATE TABLE Projetos (
     id UUID PRIMARY KEY DEFAULT gen_random_uuid(),
     titulo_projeto VARCHAR(255) NOT NULL,
     data_submissao TIMESTAMP DEFAULT CURRENT_TIMESTAMP,
-    status VARCHAR(50) NOT NULL,
+    status VARCHAR(50) NOT NULL CHECK (status IN ('Em avaliação', 'Aprovado', 'Reprovado')),
     arquivo VARCHAR(255) NOT NULL, -- URL do arquivo PDF armazenado no Firebase
     avaliador UUID REFERENCES Usuarios(id),
     empresa UUID REFERENCES Empresas(id)
