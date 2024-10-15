@@ -1,4 +1,4 @@
-<h1 align="center">Chat Softex</h1>
+<h1>Chat Softex</h1>
 
 <p align="center">
   <img src="http://img.shields.io/static/v1?label=Draw.io&message=24.6.4&color=f08705&style=for-the-badge&logo=diagramsdotnet"/>
@@ -17,11 +17,11 @@
 
 :small_blue_diamond: [Relacionamentos](#relacionamentos-handshake) :heavy_check_mark:
 
-:small_blue_diamond: [Modelo Lógico - DER](#modelo-logico-der) :x:
+:small_blue_diamond: [Modelo Lógico - DER](modelo_logico_der) :heavy_check_mark:
 
-:small_blue_diamond: [Modelo Físico - Scripts Create Database](#scripts-create-database) :heavy_check_mark:
+:small_blue_diamond: [Modelo Físico - Scripts Create Database](scripts_create_database) :heavy_check_mark:
 
----
+... 
 
 ## Entidades e Atributos :file_folder:
 
@@ -70,7 +70,6 @@
 
 </p>
 
-...
 
 ## Relacionamentos :handshake:
 
@@ -89,7 +88,6 @@
   - Cada projeto tem uma única avaliação e cada avaliação está associada a um único projeto.
   - Chave Estrangeira: projeto em Avaliacoes refere-se a id em Projetos.
 
-...
 
 ## Regras de Integridade :pencil:
 
@@ -99,7 +97,6 @@
 - **Status dos Projetos**: Os projetos podem estar em um dos seguintes estados: "Em avaliação", "Aprovado" ou "Reprovado".
 - **Tipo de Usuarios**: Os usuários podem ser "Administrador" ou "Avaliador".
 - **Feedback**: Cada projeto pode ter uma única avaliação gerada pela IA ChatGPT.
-
 
 ...
 
