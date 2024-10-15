@@ -39,9 +39,15 @@
     - data_cadastro com cláusula DEFAULT CURRENT_TIMESTAMP: Define que por padrão, será preenchida com a data e hora atuais no momento em que um novo registro é inserido na tabela.
 
 **2. Empresas** :heavy_check_mark:
+<<<<<<< HEAD
   - id (PK) UUID
   - nome_fantasia_empresa VARCHAR
   - cnpj_empresa VARCHAR (UNIQUE)
+=======
+  - id (PK) VARCHAR (UUID)
+  - nome_fantasia VARCHAR
+  - cnpj VARCHAR (UNIQUE)
+>>>>>>> 8613a7126eb394b3e9b33c1b4c37d9ce52817ef5
   - email VARCHAR
   - data_cadastro TIMESTAMP
   - **OBS:**
