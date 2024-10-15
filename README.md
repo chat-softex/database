@@ -40,8 +40,8 @@
 
 **2. Empresas** :heavy_check_mark:
   - id (PK) VARCHAR (UUID)
-  - nome_fantasia_empresa VARCHAR
-  - cnpj_empresa VARCHAR (UNIQUE)
+  - nome_fantasia VARCHAR
+  - cnpj VARCHAR (UNIQUE)
   - email VARCHAR
   - data_cadastro TIMESTAMP
   - **OBS:**
