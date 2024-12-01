@@ -1,4 +1,4 @@
-<h1>Chat Softex</h1>
+<h1>ChatSoftex</h1>
 
 <p align="center">
   <img src="http://img.shields.io/static/v1?label=Draw.io&message=24.6.4&color=f08705&style=for-the-badge&logo=diagramsdotnet"/>
@@ -21,7 +21,7 @@
 
 :small_blue_diamond: [Modelo Físico - Scripts Create Database](scripts_create_database) :heavy_check_mark:
 
-... 
+--- 
 
 ## Entidades e Atributos :file_folder:
 
@@ -70,6 +70,7 @@
 
 </p>
 
+---
 
 ## Relacionamentos :handshake:
 
@@ -98,10 +99,10 @@
 - **Tipo de Usuarios**: Os usuários podem ser "Administrador" ou "Avaliador".
 - **Feedback**: Cada projeto pode ter uma única avaliação gerada pela IA ChatGPT.
 
-...
+---
 
 ## Licença 
 
 The [MIT License]() (MIT)
 
-Copyright :copyright: 2024 - Chat Softex
+Copyright :copyright: 2024 - ChatSoftex
