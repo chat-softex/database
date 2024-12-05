@@ -17,6 +17,10 @@
 
 :small_blue_diamond: [Relacionamentos](#relacionamentos-handshake) :heavy_check_mark:
 
+:small_blue_diamond: [Clonar Repositório](#clonar-repositório-file_folder-arrow_right-file_folder) 
+
+:small_blue_diamond: [Contribuições](#contribuições-technologist) 
+
 :small_blue_diamond: [Modelo Lógico - DER](modelo_logico_der) :heavy_check_mark:
 
 :small_blue_diamond: [Modelo Físico - Scripts Create Database](scripts_create_database) :heavy_check_mark:
@@ -98,6 +102,26 @@
 - **Status dos Projetos**: Os projetos podem estar em um dos seguintes estados: "Em avaliação", "Aprovado" ou "Reprovado".
 - **Tipo de Usuarios**: Os usuários podem ser "Administrador" ou "Avaliador".
 - **Feedback**: Cada projeto pode ter uma única avaliação gerada pela IA ChatGPT.
+
+---
+
+## Clonar Repositório :file_folder: :arrow_right: :file_folder:
+
+```bash
+git clone https://github.com/chat-softex/database.git
+```
+
+---
+
+## Contribuições :technologist:
+
+**Contribuições são bem-vindas! Se você deseja contribuir com melhorias ou correções para o projeto, basta seguir estes passos:**
+
+- Faça um fork do projeto.
+- Crie uma branch para sua nova funcionalidade (git checkout -b feat/nova-funcionalidade).
+- Faça commit das suas alterações (git commit -m 'Adiciona nova funcionalidade').
+- Envie para o repositório remoto (git push origin feat/nova-funcionalidade).
+- Crie um pull request.
 
 ---
 
